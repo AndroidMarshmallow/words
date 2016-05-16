@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/confirmation"
+                            android:textSize="15sp"
+                            android:textColor="#aaaaaa"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/type"
+                            android:textSize="15sp"
+                            android:gravity="start"
+                            android:textColor="#525252"
+                            android:textStyle="normal"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tvTypeInCancel"
+                            android:text="@string/day_off"
+                            android:textSize="15sp"
+                            android:gravity="start"
+                            android:textColor="#525252"
+                            android:textStyle="normal"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/period"
+                        android:textSize="15sp"
+                        android:gravity="start"
+                        android:textColor="#525252"
+                        android:textStyle="normal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_26_04_2016_17_15_30_04_2016_17_15"
+                        android:id="@+id/tvPeriod"
+                        android:textSize="15sp"
+                        android:gravity="start"
+                        android:textColor="#525252"
+                        android:textStyle="normal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="2dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/status"
+                        android:textSize="15sp"
+                        android:gravity="start"
+                        android:textColor="#525252"
+                        android:textStyle="normal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvStatusInCancel"
+                        android:text="@string/waiting"
+                        android:textSize="15sp"
+                        android:gravity="start"
+                        android:textColor="#525252"
+                        android:textStyle="normal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/last_modified"
+                        android:textSize="15sp"
+                        android:gravity="start"
+                        android:textColor="#525252"
+                        android:textStyle="normal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvLastModifaed"
+                        android:text="@string/_25_04_2016_06_15"
+                        android:textSize="15sp"
+                        android:gravity="start"
+                        android:textColor="#525252"
+                        android:textStyle="normal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="2dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/last_modified_by"
+                        android:textSize="15sp"
+                        android:gravity="start"
+                        android:textColor="#525252"
+                        android:textStyle="normal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvLastModifaedBy"
+                        android:text="@string/android_demo"
+                        android:textSize="15sp"
+                        android:gravity="start"
+                        android:textColor="#525252"
+                        android:textStyle="normal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/do_you_relly_want_delete_the_absence_request"
+                        android:textSize="15sp"
+                        android:gravity="start"
+                        android:textColor="#525252"
+                        android:textStyle="normal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:gravity="end"
+                android:layout_marginTop="15dp">
+
+                <Button
+                    android:id="@+id/btDeleteRequest"
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:text="@string/delete"
+                    android:textSize="15sp"
+                    android:gravity="end"
+                    android:textColor="#7cd326"
+                    android:background="#ffffff"
+                    android:clickable="true"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp" />
+
+                <Button
+                    android:id="@+id/btCancelDeleteRequest"
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:text="@string/cancel"
+                    android:textSize="15sp"
+                    android:gravity="end"
+                    android:textColor="#ff0000"
+                    android:background="#ffffff"
+                    android:clickable="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
+                    />
+
+            </LinearLayout>
+
+</LinearLayout>

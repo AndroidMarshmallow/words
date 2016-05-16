@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteBackground"
+    android:id="@+id/users_menu_grup">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#e3e3e3"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tvEmployeePerson"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/scheider_kari_dieter"
+                    android:textSize="18sp"
+                    android:textColor="#3e3e3e"
+                    android:paddingBottom="5dp"
+                    android:background="#ffffff"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/department_a"
+                    android:textSize="15sp"
+                    android:textColor="#3e3e3e"
+                    android:background="#ffffff"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+
+                <TextView
+                    android:id="@+id/tvChangeLanguage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="@string/changeLanguage"
+                    android:textSize="15sp"
+                    android:textColor="#3e3e3e"
+                    android:layout_marginTop="1dp"
+                    android:clickable="true"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="5dp" />
+
+                <TextView
+                    android:id="@+id/tvLogOff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="@string/logOff"
+                    android:textSize="15sp"
+                    android:textColor="#3e3e3e"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:clickable="true"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="5dp"/>
+
+        </LinearLayout>
+
+</LinearLayout>

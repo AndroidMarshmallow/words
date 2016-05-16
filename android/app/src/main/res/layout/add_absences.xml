@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/absenceLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteBackground"
+    android:clickable="false"
+    tools:ignore="Overdraw">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:clickable="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:clickable="false"
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tvAbsenceTypeAfterClick"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/absence_type"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:clickable="true"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:id="@+id/tvAbsenceTypeBeforeClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/absence_type"
+                    android:layout_weight="1"
+                    android:visibility="visible"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:clickable="true" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spAbsenceType"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1388c5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="false">
+
+
+                <RelativeLayout
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:paddingBottom="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:clickable="false">
+
+
+                    <LinearLayout
+                        android:baselineAligned="false"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#1388c5"
+                        android:clickable="false"
+                        android:id="@+id/linearLayout">
+
+
+                        <LinearLayout
+                            android:id="@+id/startTime"
+                            android:paddingBottom="20dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#ffffff"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                             >
+
+                            <TextView
+                                android:id="@+id/startTimeTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/startDate"
+                                android:visibility="visible"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginStart="12dp"
+                                android:layout_marginTop="8dp"
+                                android:background="#ffffff"
+                                android:clickable="false" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:ems="10"
+                                android:id="@+id/startTimeTextEdit"
+                                android:visibility="visible"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="8dp"
+                                android:background="#ffffff"
+                                android:clickable="false"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:paddingBottom="20dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#ffffff"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginStart="1dp"
+                            android:id="@+id/endTime"
+                            android:clickable="true"
+                            >
+
+                            <TextView
+                                android:id="@+id/endTimeTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/endDate"
+                                android:visibility="visible"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginStart="12dp"
+                                android:layout_marginTop="8dp"
+                                android:clickable="false"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:ems="10"
+                                android:id="@+id/endTimeTextEdit"
+                                android:visibility="visible"
+                                android:clickable="false"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginRight="12dp"
+                                android:layout_marginTop="8dp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ffffff"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:ems="10"
+                    android:id="@+id/tvNoteForAddRequest"
+                    android:visibility="visible"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:text="@string/note"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/inputDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="10"
+                    android:gravity="top"
+                    android:ems="10"
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/input_note_border"
+                    android:inputType="textMultiLine"
+                    android:maxLength="255" />
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:visibility="visible"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/addAbsence"
+                    android:text="@string/send"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:background="#1388c5"
+                    android:paddingLeft="60dp"
+                    android:paddingRight="60dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

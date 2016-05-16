@@ -1,0 +1,1 @@
+AbsencePlanner - Android - mobile client

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">ABSENCE PLANNER</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="endTimeTextView">End Time</string>
+    <string name="userName_en">LOGIN</string>
+    <string name="password_en">PASSWORD</string>
+    <string name="loginButton_en">SIGN IN</string>
+    <string name="userName_uk">ВХІД</string>
+    <string name="password_uk">ПАРОЛЬ</string>
+    <string name="loginButton_uk">ЛОГІН</string>
+    <string name="userName_ru">ВХОД</string>
+    <string name="password_ru">ПАРОЛЬ</string>
+    <string name="loginButton_ru">ЛОГИН</string>
+    <string name="startDate">Start date</string>
+    <string name="endDate">End date</string>
+    <string name="success">Success</string>
+    <string name="successfullyDeleted">Successfully deleted</string>
+    <string name="invalidCreditenals">Invalid creditenals</string>
+    <string name="wrongDate">Sorry your date is wrong ☺</string>
+
+    <string name="daysLeft">Days left</string>
+    <string name="daysUsed">Days used</string>
+    <string name="pending">Pending</string>
+    <string name="balance">BALANCE</string>
+    <string name="addRequest">ADD REQUEST</string>
+    <string name="Requests">REQUESTS</string>
+
+    <string name="errorUserName">Enter your login</string>
+    <string name="errorPassName">Enter your password</string>
+
+    <string name="changeLanguage">Change language</string>
+    <string name="logOff">Log off</string>
+    <string name="confirmation">CONFIRMATION</string>
+    <string name="scheider_kari_dieter">Scheider, Kari-Dieter</string>
+    <string name="employee">EMPLOYEE</string>
+    <string name="department_a">Department A</string>
+    <string name="absence_type">ABSENCE TYPE</string>
+    <string name="start_end_day">Start/End day</string>
+    <string name="type">Type :</string>
+    <string name="day_off">DAY_OFF</string>
+    <string name="period">Period :</string>
+    <string name="_26_04_2016_17_15_30_04_2016_17_15">26.04.2016 17:15 - 30.04.2016 17:15</string>
+    <string name="status">Status :</string>
+    <string name="_10_01_2015_18_20">10.01.2015 18:20</string>
+    <string name="waiting">Waiting</string>
+    <string name="approved">Approved</string>
+    <string name="_15">15</string>
+    <string name="last_modified">Last modified :</string>
+    <string name="schneider_kari_dieter">Schneider, Kari-Dieter</string>
+    <string name="_25_04_2016_06_15">25.04.2016 06:15</string>
+    <string name="_5">5</string>
+    <string name="last_modified_by">Last modified by:</string>
+    <string name="android_demo">Android, Demo</string>
+    <string name="_1">1</string>
+    <string name="created">Created</string>
+    <string name="do_you_relly_want_delete_the_absence_request">Do you relly want delete the absence request?</string>
+    <string name="note">NOTE</string>
+    <string name="delete">DELETE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="send">Send</string>
+    <string name="add_request">ADD REQUEST</string>
+    <string name="add_request_manager">ADD REQUEST(manager)</string>
+    <string name="requests">REQUESTS</string>
+</resources>

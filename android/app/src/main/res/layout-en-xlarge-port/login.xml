@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background_port">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/userName_en"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:id="@+id/userName"
+            android:textSize="50sp"
+            app:met_baseColor="@android:color/white"
+            android:windowSoftInputMode="stateHidden"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="255"
+            app:met_primaryColor="?colorAccent"
+            app:met_singleLineEllipsis="true"
+            android:paddingTop="-20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="452dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginEnd="100dp"
+            />
+
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/userPass"
+            android:hint="@string/password_en"
+            android:windowSoftInputMode="stateHidden"
+            android:textSize="50sp"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="255"
+            app:met_primaryColor="?colorAccent"
+            app:met_singleLineEllipsis="true"
+            android:layout_below="@+id/userName"
+            android:layout_alignLeft="@+id/userName"
+            android:layout_alignStart="@+id/userName"
+            android:layout_alignRight="@+id/userName"
+            android:layout_alignEnd="@+id/userName"
+            android:paddingTop="-20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loginButton_en"
+            android:id="@+id/buttonConfirm"
+            android:textColor="#1b5488"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/userPass"
+            android:layout_alignLeft="@+id/userPass"
+            android:layout_alignStart="@+id/userPass"
+            android:layout_alignRight="@+id/userPass"
+            android:layout_alignEnd="@+id/userPass"
+            android:textSize="40sp" />
+
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
